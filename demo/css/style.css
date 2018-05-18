@@ -1,0 +1,100 @@
+html{
+  font-size: 16px;
+}
+
+.content{
+  min-height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 30px 10px;
+}
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin: 20px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.2);
+}
+.card-box .header-title{
+  border-bottom: 1px solid;
+  padding: 10px 15px;
+  border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+
+
+}
+table{
+      background-color: transparent;
+      border-spacing: 0;
+     border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th{
+  font-weight: bold;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+.btn {
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 12px;
+}
+.btn-group .btn {
+    position: relative;
+    float: left;
+}
+.btn-group .btn:first-child {
+    margin-left: 0;
+}
+sm{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+a{
+  text-decoration: none;
+}
+@media (min-width: 768px)
+.col-sm-4 {
+    width: 33.33333333%;
+}
+.col-sm-4{
+  position: relative;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+}
+@media (min-width: 768px)
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+input[type=search] {
+    -webkit-appearance: none;
+}
